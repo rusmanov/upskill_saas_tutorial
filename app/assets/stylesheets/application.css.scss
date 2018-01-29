@@ -41,6 +41,19 @@ f1, f2, f3 {
   font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+
+
+// Homepage styles
 .home-callout {
   color: white;
   margin-top: -20px;
@@ -48,7 +61,6 @@ f1, f2, f3 {
   padding-bottom: 100px;
 }
 
-// Homepage styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
